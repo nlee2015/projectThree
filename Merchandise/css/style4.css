@@ -1,0 +1,36 @@
+html{
+    background-color: #356082;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+nav{
+    background-color: #B49848;
+    font-family:"Encode Sans SC", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20pt;
+    text-align: right;
+    word-spacing: 20pt;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    color: #356082;
+}
