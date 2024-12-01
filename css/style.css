@@ -45,7 +45,11 @@ nav a:hover{
    transform: translate(74px,-65px);
 }
 
-.locationLeft{
+#text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*.locationLeft{
     z-index: 5;
     position: absolute;
     text-align: left;
@@ -59,7 +63,7 @@ nav a:hover{
     text-align: right;
     transform: translate(1074px,-65px);
     color: white;
-}
+}*/
 
 
 
