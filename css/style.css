@@ -46,9 +46,17 @@ nav a:hover{
 }
 
 #text{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content:center;   
 }
+
+.locationLeft{
+
+}
+
+
+
+
 /*.locationLeft{
     z-index: 5;
     position: absolute;
