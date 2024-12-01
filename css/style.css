@@ -16,6 +16,7 @@ nav{
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 2%;
+    
 }
 
 nav a{
@@ -48,10 +49,23 @@ nav a:hover{
 #text{
     display: flex;
     justify-content:center;   
+    font-family: "Source Sans 3";
+    font-weight: 500;
+    transform: translateY(-400px);
+    font-size: 20pt;
+    color: white;
+    
 }
 
 .locationLeft{
+    margin-right: 45%;
+    /* background-color: aqua; */
+}
 
+.dates{
+    display: block;
+    margin-right: 5%;
+    /* background-color: fuchsia; */
 }
 
 
