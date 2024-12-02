@@ -9,7 +9,7 @@ body{
     /* overflow: hidden; */
 }
 
-nav{
+.navigation{
     background-color: #E4584C; 
     font-family:"Encode Sans SC", sans-serif;
     font-weight: bold;
@@ -33,6 +33,11 @@ nav a:visited{
 
 nav a:hover{
     color: #356082;
+}
+
+.navigation img{
+    width: 25%;
+    float: left;
 }
 
 #description{
