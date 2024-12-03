@@ -50,10 +50,11 @@ nav a:hover{
     display: flex;
     justify-content:center;   
     font-family: "Source Sans 3";
-    font-weight: 500;
-    transform: translateY(-400px);
-    font-size: 20pt;
-    color: white;
+    font-weight: bolder;
+    transform: translateY(-200px);
+    font-size: 35pt;
+    color: #FBB040;
+    
     
 }
 
