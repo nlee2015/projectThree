@@ -1,30 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
-    background-color: #356082;
+    background-color: #003371; 
 }
 
 body{
-    margin: 0;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     /* overflow: hidden; */
 }
 
-nav{
-    background-color: #B49848;
-    font-family:"Encode Sans SC", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20pt;
-    text-align: right;
-    word-spacing: 20pt;
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: nowrap;
+    background-color: #E4584C;
+    align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-right: 2%;
+    box-shadow: 0 10px 9px 0 rgba(28, 22, 22, 0.637);
+}
+
+#navigationLogo{
+    padding-left: 5%;
+    width: 12%;
+}
+
+h1{
+    animation: animate 2s ease-in-out infinite alternate;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #DD5BA1;
+    background-color: black;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    flex-direction: row; 
+    margin-right: 18%;
+    border-radius: 10px; 
+    text-transform: uppercase;
+    float: left;
+    color: #E4584C;
+    font-family:"Encode Sans SC", sans-serif
+}
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 10px #DD5BA1;
+    }
+    to{
+        text-shadow: 0 0 20px #DD5BA1,
+                    0 0 5px #DD5BA1;
+    }  
+}
+
+nav{
+    font-family:"Encode Sans SC", sans-serif;
+    font-weight: 650pt;
+    text-transform: uppercase;
+    font-size: 20pt;
+    display: flex;
+    margin-right: 15%;
+    align-self: center;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+    display: flex;
+    padding-left: 8%; 
 }
 
 nav a:visited{
