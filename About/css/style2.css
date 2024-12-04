@@ -34,7 +34,7 @@ header{
 
 h1{
     animation: animate 2s ease-in-out infinite alternate;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #DD5BA1;
     background-color: black;
     padding-left: 0.5%;
@@ -48,15 +48,15 @@ h1{
     font-family:"Encode Sans SC", sans-serif
 }
 
-/*@keyframes animate{
+@keyframes animate{
     from{
-        text-shadow: 0 0 20px #DD5BA1;
+        text-shadow: 0 0 10px #DD5BA1;
     }
     to{
-        text-shadow: 0 0 30px #DD5BA1,
-                    0 0 10px #DD5BA1;
+        text-shadow: 0 0 20px #DD5BA1,
+                    0 0 5px #DD5BA1;
     }  
-}*/
+}
 
 nav{
     font-family:"Encode Sans SC", sans-serif;
