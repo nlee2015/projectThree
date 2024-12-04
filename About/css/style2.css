@@ -24,14 +24,39 @@ header{
     align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
-
-
+    box-shadow: 0 10px 9px 0 rgba(28, 22, 22, 0.637);
 }
 
 #navigationLogo{
     padding-left: 5%;
     width: 12%;
 }
+
+h1{
+    animation: animate 2s ease-in-out infinite alternate;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DD5BA1;
+    background-color: black;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    flex-direction: row; 
+    margin-right: 18%;
+    border-radius: 10px; 
+    text-transform: uppercase;
+    float: left;
+    color: #E4584C;
+    font-family:"Encode Sans SC", sans-serif
+}
+
+/*@keyframes animate{
+    from{
+        text-shadow: 0 0 20px #DD5BA1;
+    }
+    to{
+        text-shadow: 0 0 30px #DD5BA1,
+                    0 0 10px #DD5BA1;
+    }  
+}*/
 
 nav{
     font-family:"Encode Sans SC", sans-serif;
@@ -63,8 +88,11 @@ nav a:hover{
     padding-left: 20%;
     padding-right: 20%;
     color: white;
-    font-family:sans-serif;
+    font-family:"Source Sans 3";
     font-size: 15pt;
     font-weight: 500;
     line-height: 200%;
 }
+
+
+
