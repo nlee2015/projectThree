@@ -1,7 +1,8 @@
 # title
 Project Three, Social Justice Festival
 # project overview
-Cantonese Rising is a multiday festival which promotes Cantonese language and culture. The festival is held in San Francisco's Chinatown which is a hub of Chinese culutre and the Cantonese language since the majority of immigrants in that area are Cantonese speakers. Events will be interactive and informative.  
+Cantonese Rising is a multiday festival which promotes Cantonese language and culture. The festival is held in San Francisco's Chinatown which is a hub of Chinese culutre and the Cantonese language since the majority of immigrants in that area are Cantonese speakers. Events will be interactive and informative in promoting Cantonese as the goal is to also reach a broader audience not just native speakers. 
+
 <br>
 Being both a Cantonese and Mandarin speaker, Cantonese is very fundamental for me and for my culture as my cultural heritage is from Southeast China where Cantonese is native to that region. Whenever I am in Chinatown, Cantonese is mainly what I hear being converesed among people and it is what I speak when I am buying groceries or ordering food from restaurants. I feel that whenever I am conversing in Cantonese I feel a deeper and more personal connection with people even though they are stangers.
 <br>
@@ -19,4 +20,9 @@ PDF link for logo making
 
 # acknowledgements
 Tutorial for neon glow effect:
-<li>https://youtu.be/VaFpjRhmdQE?feature=shared 
+<li>https://youtu.be/VaFpjRhmdQE?feature=shared</li>
+Sources:
+<li>https://youtu.be/BL65lAxtdww?feature=shared</li>
+<li>https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp</li>
+<li>https://www.w3schools.com/howto/howto_css_image_center.asp</li>
+<li>https://stackoverflow.com/questions/60680652/how-to-add-a-shadow-under-a-navbar-using-css</li>
