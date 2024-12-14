@@ -48,6 +48,22 @@ h1{
     font-family:"Encode Sans SC", sans-serif
 }
 
+h2{
+    animation: animate 2s ease-in-out infinite alternate;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #DD5BA1;
+    /*background-color: black;*/
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    flex-direction: row; 
+    margin-right: 18%;
+    border-radius: 10px; 
+    text-transform: uppercase;
+    float: left;
+    color: #E4584C;
+    font-family:"Encode Sans SC", sans-serif
+}
+
 @keyframes animate{
     from{
         text-shadow: 0 0 10px #DD5BA1;
