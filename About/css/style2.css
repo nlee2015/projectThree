@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-html{
-    background-color: #003371; 
-}
 
 body{
+    background-image: url(../img/neonBackground.png);
+    opacity: 0.5%;
+    background-color: #003371;
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
     width: 100%;
     min-height: 100vh;
-    /* overflow: hidden; */
 }
+
+
 
 header{
     display: flex;
