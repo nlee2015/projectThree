@@ -98,3 +98,22 @@ nav a:visited{
 nav a:hover{
     color: #356082;
 }
+
+.dayOne{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: 50vh;
+    background-color: #fff;
+    color: #89aec9;
+}
+
+.dayTwo{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: 50vh;
+    background-color: #fff;
+    color: #89aec9;
+}
+
