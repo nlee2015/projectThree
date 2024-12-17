@@ -4,11 +4,8 @@
     box-sizing: border-box;
 }
 
-html{
-    background-color: #003371; 
-}
-
 body{
+    background-color: #003371;
     width: 100%;
     min-height: 100vh;
     /* overflow: hidden; */
@@ -48,32 +45,6 @@ h1{
     font-family:"Encode Sans SC", sans-serif
 }
 
-h2{
-    animation: animate 2s ease-in-out infinite alternate;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #DD5BA1;
-    /*background-color: black;*/
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    flex-direction: row; 
-    margin-right: 18%;
-    border-radius: 10px; 
-    text-transform: uppercase;
-    float: left;
-    color: #E4584C;
-    font-family:"Encode Sans SC", sans-serif
-}
-
-@keyframes animate{
-    from{
-        text-shadow: 0 0 10px #DD5BA1;
-    }
-    to{
-        text-shadow: 0 0 20px #DD5BA1,
-                    0 0 5px #DD5BA1;
-    }  
-}
-
 nav{
     font-family:"Encode Sans SC", sans-serif;
     font-weight: 650pt;
@@ -99,21 +70,89 @@ nav a:hover{
     color: #356082;
 }
 
+h2{
+    animation: animate 2s ease-in-out infinite alternate;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #DD5BA1;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    text-transform: uppercase;
+    color: #E4584C;
+    font-size: 25pt;
+    font-family:"Encode Sans SC", sans-serif
+}
+
+h3{
+    animation: header 2s ease-in-out infinite alternate;
+    -webkit-text-stroke-color: #FBB040;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 1%;
+    text-transform: uppercase;
+    color: #FBB040;
+    font-family:"Encode Sans SC", sans-serif
+}
+
+p{
+    padding-left: 0.5%;
+    padding-top: 2%;
+    line-height: 200%;
+}
+
 .dayOne{
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: repeat(2, 50vw);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50vh;
-    background-color: #fff;
-    color: #89aec9;
+    background-color: #003371;
+    color: white;
+    font-family:"Source Sans 3";
+    font-size: 15pt;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
+
+
+
+
 
 .dayTwo{
     display: grid;
     grid-gap: 0px;
     grid-template-columns: repeat(2, 50vw);
     grid-template-rows: 50vh;
-    background-color: #fff;
-    color: #89aec9;
+    background-color: #f1d442;
+    color: #444;
+}
+
+.dayThree{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: 50vh;
+    background-color: #ffffff;
+    color: #444;
+}
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 10px #DD5BA1;
+    }
+    to{
+        text-shadow: 0 0 20px #DD5BA1,
+                    0 0 5px #DD5BA1;
+    }  
+}
+
+@keyframes header{
+    from{
+        text-shadow: 0 0 10px #FBB040;
+    }
+    to{
+        text-shadow: 0 0 20px #FBB040,
+                    0 0 5px #FBB040;
+    }  
 }
 
