@@ -96,7 +96,7 @@ h3{
 p{
     padding-left: 0.5%;
     padding-top: 2%;
-    line-height: 200%;
+    line-height: 150%;
 }
 
 .dayOne{
@@ -123,8 +123,8 @@ p{
     grid-gap: 0px;
     grid-template-columns: repeat(2, 50vw);
     grid-template-rows: 50vh;
-    background-color: #f1d442;
-    color: #444;
+    background-color: #003371;
+    color: white;
 }
 
 .dayThree{
