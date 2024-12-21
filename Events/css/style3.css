@@ -164,7 +164,7 @@ p{
     font-family:"Source Sans 3";
     font-size: 15pt;
     padding-right: 20%;
-    padding-bottom: 12%;
+    padding-bottom: 16%;
 }
 
 .dayThreeEvents{
@@ -174,7 +174,8 @@ p{
 }
 
 .festivalCrowd img{
-    width: 135%;
+    width: 150%;
+    background-color:cyan;
 }
 
 
@@ -200,4 +201,6 @@ p{
                     0 0 5px #FBB040;
     }  
 }
+
+
 

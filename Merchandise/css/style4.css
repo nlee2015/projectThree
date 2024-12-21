@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-html{
-    background-color: #003371; 
-}
-
 body{
+    background-image: url(../img/neonBackground.png);
+    background-color: #0d2441;
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
     width: 100%;
     min-height: 100vh;
-    /* overflow: hidden; */
 }
 
 header{
@@ -81,4 +81,16 @@ nav a:visited{
 
 nav a:hover{
     color: #356082;
+}
+
+h2{
+    animation: animate 2s ease-in-out infinite alternate;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #DD5BA1;
+    text-transform: uppercase;
+    color: #E4584C;
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 2%;
+    font-family:"Encode Sans SC", sans-serif
 }
